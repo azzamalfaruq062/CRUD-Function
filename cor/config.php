@@ -2,7 +2,7 @@
 
 include 'koneksi.php';
 
-function read($db, $col='*', $tabel, $condisi){
+function read($db, $col, $tabel, $condisi){
     $con = con($db);
     $tampil = mysqli_query($con, "SELECT $col FROM $tabel $condisi");
     return $tampil;
