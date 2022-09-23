@@ -1,0 +1,5 @@
+file cor berisi function , jadi inti di file cor.
+
+yg lain pemanis
+
+setelah tambah data tekan tombol home untuk refres halaman, karena tidak bisa auto refresh
