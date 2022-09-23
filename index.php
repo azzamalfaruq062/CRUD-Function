@@ -2,7 +2,7 @@
 include 'cor/config.php';
 // include 'asc.php';
 // Tampil
-$tampil_asc = read('mahasiswa', '', 'jurusan', ' ORDER by nama_jurusan ASC');
+$tampil_asc = read('mahasiswa', '*', 'jurusan', ' ORDER by nama_jurusan ASC');
 // $tampil_dsc = read('mahasiswa', 'jurusan', ' ORDER by nama_jurusan DSC');
 // Tambah
 if(isset($_POST['tambah'])){
