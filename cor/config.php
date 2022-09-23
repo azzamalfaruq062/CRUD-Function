@@ -22,7 +22,4 @@ function update($db,$tabel,$condisi){
     $edit = mysqli_query($con, "UPDATE $tabel SET $condisi");
     return $edit;
 }
-function sort(){
-    
-}
 ?>
